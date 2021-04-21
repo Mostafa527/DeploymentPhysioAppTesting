@@ -25,7 +25,7 @@ SECRET_KEY = 'f7h$#)wmdo-26)8h42j#q*8dhh2gujt0_$odb=n81$+2yd(v5-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','testmyphys.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','testmyphys.herokuapp.com','testmyphys.herokuapp.com/Patient']
 
 
 # Application definition
@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'physiotherpy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'NAME': 'd1quub6e09dqvc',
+        'USER': 'elynigsenzjgqd',
+        'PASSWORD': '93adfe62b212e514ede4da856ba9cf1b1e5335fe5a56ce97201b462981f83452',
+        'HOST': 'ec2-107-20-153-39.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
