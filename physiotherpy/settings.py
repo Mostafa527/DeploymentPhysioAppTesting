@@ -25,7 +25,7 @@ SECRET_KEY = 'f7h$#)wmdo-26)8h42j#q*8dhh2gujt0_$odb=n81$+2yd(v5-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','predeb.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','testmyphys.herokuapp.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'physio'
 ]
 
 MIDDLEWARE = [
@@ -50,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'proj1.urls'
+ROOT_URLCONF = 'physiotherpy.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'proj1.wsgi.application'
+WSGI_APPLICATION = 'physiotherpy.wsgi.application'
 
 
 # Database

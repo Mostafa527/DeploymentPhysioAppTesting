@@ -1,1 +1,1 @@
-web: gunicorn physiotherapy.wsgi
+web: gunicorn physiotherpy.wsgi
